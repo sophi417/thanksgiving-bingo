@@ -1,0 +1,61 @@
+
+
+body {
+    background-color: #FFF8ED;
+    font-family: 'Comic Neue', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    color: #A94F28;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #75452D;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+p {
+color: #66564B;
+font-size: 20px;
+
+}
+#palabra {
+    font-size: 42px;
+    font-weight: 700;
+    color: #A94F28;
+}
+
+button {
+background-color: #D97736;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+border: none;
+border-radius:12px;
+cursor: pointer;
+margin: 8px;
+}
+
+button:hover {
+    background-color: #B95B25;
+}
+#imagen {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin: 20px 0;
+}
